@@ -27,30 +27,36 @@
     display: inline-grid;
     grid-gap: 20px;
     font-size: 20px;
+    padding-bottom: 4rem;
+    margin-bottom: 0;
+    border-bottom: solid;
 }
 
 #skills
 {
     margin: 8rem;
-    margin-top: 16rem;
+    margin-top: 4rem;
     font-size: 20px;
+    padding-bottom: 8rem;
+    border-bottom: solid;
 }
 
 
 #experiences
 {
     margin: 8rem;
-    margin-top: 16rem;
+    margin-top: 8rem;
     font-size: 20px;
+    padding-bottom: 8rem;
 }
 
 #contacts
 {
-    margin: 8rem;
-    margin-top: 16rem;
-    margin-bottom: 3rem;
+    padding: 4rem;
     font-size: 32px;
     width: 100%;
+    background-color: black;
+    color:white;
 }
 
 #contact_info
@@ -58,6 +64,7 @@
     display: grid;
     grid-template-columns: 10%  40% 25% 25%;
 }
+
 
 .centered
 {
@@ -77,14 +84,14 @@
 }
 .social_links
 {
-    border-left: 10px black solid;
+    border-left: 5px white solid;
     grid-column: 3;
 }
 
 .social_link > a
 {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 28px;
 }
 
@@ -94,10 +101,16 @@
     margin: 0.5rem;
 }
 
+.navbar-button > a
+{
+    height: 100%;
+    width: 100%;
+}
+
 a.anchor {
     display: block;
     position: relative;
-    top: -6rem;
+    top: -8rem;
     visibility: hidden;
     width: 0;
 }
@@ -107,16 +120,22 @@ ul.navbar-buttons
     list-style-type: none;
 }
 
-ul.navbar-buttons > li
+.navbar-button
 {
     padding: 1rem;
     display: inline;
+    color: white;
 }
 
-ul.navbar-buttons > li > a
+.navbar-buttons > a
 {
+    text-decoration: none;
     color: white;
-    text-decoration: none; 
+}
+
+.navbar-button:hover
+{
+    background-color: #63666A;
 }
 
 .font_sora
