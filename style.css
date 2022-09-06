@@ -50,7 +50,35 @@
     margin-top: 16rem;
     margin-bottom: 3rem;
     font-size: 32px;
+    width: 100%;
+}
+
+#contact_info
+{
+    display: grid;
+    grid-template-columns: 10%  40% 25% 25%;
+}
+
+.centered
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.contact_title
+{
     text-align: center;
+}
+.contact_addresses
+{
+    grid-column: 2;
+    text-align: right;
+}
+.social_links
+{
+    border-left: 10px black solid;
+    grid-column: 3;
 }
 
 .social_link > a
