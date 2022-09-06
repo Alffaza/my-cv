@@ -1,161 +1,135 @@
-.navbar
-{
-    background-color: black;
-    padding: 1rem;
-    height: 3rem;
-    width: 100%;
-    position: fixed;
-    top: 0;
+.navbar {
+  background-color: black;
+  padding: 1rem;
+  height: 3rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
 }
 
-.whoami
-{
-    grid-column: 2;
-    margin-top: 12rem;
-    text-align: center;
+.whoami {
+  grid-column: 2;
+  margin-top: 12rem;
+  text-align: center;
 }
 
-.portrait
-{
-    grid-column: 1;
-    margin: 1rem;
+.portrait {
+  grid-column: 1;
+  margin: 1rem;
 }
 
-#home 
-{
-    margin: 8rem;
-    display: inline-grid;
-    grid-gap: 20px;
-    font-size: 20px;
-    padding-bottom: 4rem;
-    margin-bottom: 0;
-    border-bottom: solid;
+#home {
+  margin: 8rem;
+  display: inline-grid;
+  grid-gap: 20px;
+  font-size: 20px;
+  padding-bottom: 4rem;
+  margin-bottom: 0;
+  border-bottom: solid;
 }
 
-#skills
-{
-    margin: 8rem;
-    margin-top: 4rem;
-    font-size: 20px;
-    padding-bottom: 8rem;
-    border-bottom: solid;
+#skills {
+  margin: 8rem;
+  margin-top: 4rem;
+  font-size: 20px;
+  padding-bottom: 8rem;
+  border-bottom: solid;
 }
 
-
-#experiences
-{
-    margin: 8rem;
-    margin-top: 8rem;
-    font-size: 20px;
-    padding-bottom: 8rem;
+#experiences {
+  margin: 8rem;
+  margin-top: 8rem;
+  font-size: 20px;
+  padding-bottom: 8rem;
 }
 
-#contacts
-{
-    padding: 4rem;
-    font-size: 32px;
-    width: 100%;
-    background-color: black;
-    color:white;
+#contacts {
+  padding: 4rem;
+  font-size: 32px;
+  width: 100%;
+  background-color: black;
+  color: white;
 }
 
-#contact_info
-{
-    display: grid;
-    grid-template-columns: 10%  40% 25% 25%;
+#contact_info {
+  display: grid;
+  grid-template-columns: 10% 40% 25% 25%;
 }
 
-
-.centered
-{
-    display: flex;
-    justify-content: center;
-    width: 100%;
+.centered {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
-.contact_title
-{
-    text-align: center;
+.contact_title {
+  text-align: center;
 }
-.contact_addresses
-{
-    grid-column: 2;
-    text-align: right;
+.contact_addresses {
+  grid-column: 2;
+  text-align: right;
 }
-.social_links
-{
-    border-left: 5px white solid;
-    grid-column: 3;
+.social_links {
+  border-left: 5px white solid;
+  grid-column: 3;
 }
 
-.social_link > a
-{
-    text-decoration: none;
-    color: white;
-    font-size: 28px;
+.social_link > a {
+  text-decoration: none;
+  color: white;
+  font-size: 28px;
 }
 
-.social_link 
-{
-    
-    margin: 0.5rem;
+.social_link {
+  margin: 0.5rem;
 }
 
-.navbar-button > a
-{
-    height: 100%;
-    width: 100%;
+.navbar-button > a {
+  height: 100%;
+  width: 100%;
 }
 
 a.anchor {
-    display: block;
-    position: relative;
-    top: -8rem;
-    visibility: hidden;
-    width: 0;
+  display: block;
+  position: relative;
+  top: -8rem;
+  visibility: hidden;
+  width: 0;
 }
 
-ul.navbar-buttons
-{
-    list-style-type: none;
+ul.navbar-buttons {
+  list-style-type: none;
 }
 
-.navbar-button
-{
-    padding: 1rem;
-    display: inline;
-    color: white;
+.navbar-button {
+  padding: 1rem;
+  display: inline;
+  color: white;
 }
 
-.navbar-buttons > a
-{
-    text-decoration: none;
-    color: white;
+.navbar-buttons > a {
+  text-decoration: none;
+  color: white;
 }
 
-.navbar-button:hover
-{
-    background-color: #63666A;
+.navbar-button:hover {
+  background-color: #63666a;
 }
 
-.font_sora
-{
-    font-family: "Sora", sans-serif;
+.font_sora {
+  font-family: "Sora", sans-serif;
 }
 
-.font_secular_one
-{
-    font-family: "Secular One", sans-serif;
+.font_secular_one {
+  font-family: "Secular One", sans-serif;
 }
 
-.font_staatliches
-{
-    font-family: "Staatliches", sans-serif;
+.font_staatliches {
+  font-family: "Staatliches", sans-serif;
 }
 
-body 
-{
-    margin: 0%;
-    min-height: 100%;
-    width: 100%;
+body {
+  margin: 0%;
+  min-height: 100%;
+  width: 100%;
 }
